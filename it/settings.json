@@ -1,16 +1,16 @@
 {
-  "gameplay": "Giocabilità",
+  "gameplay": "Gioco",
   "graphics": "Grafica",
-  "camera": "Fotocamera",
+  "camera": "Camera",
   "sound": "Suono",
   "language": "Lingua",
 
   "multiTurnOrders": {
     "title": "Ordini multi-turno",
-    "description": "Attivando questa impostazione, potrai impartire ordini che il gioco ricorderà e implementerà da un turno all’altro. Questi ordini multi-turno possono coprire fino a 10 turni di movimento e includere ordini di posizione come 'Muovi' e ordini di obiettivo come 'Cerca'."
+    "description": "Attivando questa impostazione, potrai impartire ordini che il gioco ricorderà e implementerà da un turno all’altro. Questi ordini multi-turno possono coprire fino a 10 turni di movimento e includere ordini di posizione come 'Muovi' e ordini di obiettivo come 'Insegui'."
   },
   "multiTurnPathMinDistance": {
-    "title": "Distanza minima del percorso a più giri"
+    "title": "Distanza minima del percorso multi-turno"
   },
   "edgePanning": {
     "title": "Scorrimento ai bordi",
@@ -29,28 +29,28 @@
     "description": "Abilita questa opzione per ottimizzare i percorsi di movimento con curve fluide, riducendo la perdita di velocità durante le rotazioni."
   },
   "openSelectOrderModal": {
-    "title": "Apri modale selezione ordini",
-    "description": "Abilita questa opzione per mostrare una finestra modale per selezionare gli ordini durante il gioco."
+    "title": "Apri menu selezione ordini",
+    "description": "Abilita questa opzione per mostrare la finestra di selezione degli ordini durante il gioco."
   },
   "showNewBattleEventsModal": {
-    "title": "Mostra modale nuovi eventi di battaglia"
+    "title": "Mostra la finestra dei nuovi eventi di battaglia"
   },
   "hidePlayerInfo": {
     "title": "Nascondi informazioni giocatore",
     "description": "Nasconde ELO e nomi utente dall'interfaccia di gioco, rendendo i giocatori anonimi."
   },
   "smartReplayCamera": {
-    "title": "Fotocamera intelligente per replay",
-    "description": "Abilita la fotocamera spettatore per concentrarsi automaticamente sull'azione durante i replay."
+    "title": "Inquadratura intelligente per replay",
+    "description": "Abilita l'inquadratura mobile automatica durante i replay."
   },
   "smartReplayCameraZoom": {
-    "title": "Zoom fotocamera intelligente per replay"
+    "title": "Zoom inquadratura intelligente per replay"
   },
   "zoomSensibility": {
     "title": "Sensibilità zoom"
   },
   "cameraSensibility": {
-    "title": "Sensibilità fotocamera (PC)"
+    "title": "Sensibilità inquadratura (PC)"
   },
   "replaySpeed": {
     "title": "Velocità replay"
@@ -69,7 +69,7 @@
   },
   "shadows": {
     "title": "Ombre",
-    "description": "Abilita le ombre sulle unità. Questo potrebbe richiedere che il gioco passi un turno affinché le unità si aggiornino."
+    "description": "Abilita le ombre sulle unità. Potrebbe richiedere  un turno affinché le unità si aggiornino."
   },
 
   "fullScreen": {
@@ -100,10 +100,10 @@
     "info": "Informazioni",
     "submitOrders": "Invia ordini",
     "deselect": "Deseleziona",
-    "moveOrder": "Ordine di movimento",
-    "seekOrder": "Ordine di ricerca",
-    "shootOrder": "Ordine di sparo",
-    "fireAndAdvanceOrder": "Ordine di sparare e avanzare",
-    "fallbackOrder": "Ordine di ritirata"
+    "moveOrder": "Muovi",
+    "seekOrder": "Insegui",
+    "shootOrder": "Fuoco",
+    "fireAndAdvanceOrder": "Spara e avanza",
+    "fallbackOrder": "Ritirata"
   }
 }
